@@ -1,0 +1,164 @@
+
+.contact {
+    margin: 0 0 40px 0;
+}
+.contactRow {
+    padding: 20px 12px;
+    background: rgb(238,174,201);
+    background: linear-gradient(170deg, rgba(238,174,201,0.2497373949579832) 10%, rgba(148,233,179,1) 90%);
+}
+.name a {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.name span {
+    margin-right: 25px;
+    color: #304D30;
+}
+
+.occupation a {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.occupation span {
+    margin-right: 25px;
+    color: #304D30;
+}
+
+.tel a {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+.tel span {
+    margin-right: 25px;
+    color: #304D30;
+}
+
+.mail a {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+.mail span {
+    margin-right: 25px;
+    color: #304D30;
+}
+
+.address a {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+.address span {
+    margin-right: 19px;
+    color: #304D30;
+}
+
+.contactUs {
+    color: #333;
+    border-radius: 5px;
+    padding: 10px 12px;
+}
+.contactUs h2 {
+    background: rgb(170,197,39);
+    background: radial-gradient(circle, rgba(170,197,39,1) 0%, rgba(249,252,249,1) 100%);
+    color: #333;
+    width: 35%;
+    text-align: center;
+    border-radius: 5px;
+    padding: 4px 6px;
+}
+.contactForm {
+    padding: 10px 12px;
+}
+.contactForm h2 {
+    background: rgb(170,197,39);
+    background: radial-gradient(circle, rgba(170,197,39,1) 0%, rgba(249,252,249,1) 100%);
+    color: #333;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    padding: 4px 6px;
+}
+
+.map {
+    padding: 10px 12px;
+    margin: 20px 0 10px 0;
+}
+
+@media screen and (max-width: 480px) {
+    .contactUs h2 {
+        text-align: center;
+        background: #3CA55C;
+        background: -webkit-linear-gradient(to right, #B5AC49, #3CA55C);
+        background: linear-gradient(to right, #B5AC49, #3CA55C);
+        color: #333;
+        width: 100%;
+        text-align: center;
+        border-radius: 5px;
+        padding: 4px 6px;
+    }
+    .contactForm h2 {
+        text-align: center;
+        border: 1px dotted #333;
+        padding: 12px 14px;
+    }
+    .name a {
+        font-size: 19px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .name span {
+        margin-right: 25px;
+        color: #304D30;
+    }
+    
+    .occupation a {
+        font-size: 19px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .occupation span {
+        margin-right: 25px;
+        color: #304D30;
+    }
+    
+    .tel a {
+        font-size: 19px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #333;
+    }
+    .tel span {
+        margin-right: 25px;
+        color: #304D30;
+    }
+    
+    .mail a {
+        font-size: 19px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #333;
+    }
+    .mail span {
+        margin-right: 25px;
+        color: #304D30;
+    }
+    
+    .address a {
+        font-size: 19px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #333;
+    }
+    .address span {
+        margin-right: 19px;
+        color: #304D30;
+    }
+}

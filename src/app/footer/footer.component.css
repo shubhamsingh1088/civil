@@ -1,0 +1,103 @@
+.footer {
+    background-color: #163020;
+    color: #f2f2f2;
+    padding: 12px 14px;
+}
+.footer h4 {
+    color: #AAC527;
+    margin: 0 0 20px 0;
+}
+.mediaLinks li {
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.mediaLinks li:hover {
+    color: #AAC527;
+    cursor: pointer;
+    text-align: justify;
+    text-decoration: none;
+}
+.services ul {
+    list-style-type: none;
+}
+.services a {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+.services a:hover {
+    /* background-color: #163020; */
+    color: #AAC527;
+    cursor: pointer;
+    text-align: justify;
+    text-decoration: none;
+    padding: 4px 6px;
+}
+.footerLast {
+    margin-top: 10px;
+}
+.list-group {
+    width: 50%; margin: auto; text-align: center;
+}
+.list-group-item {
+    background-color: #163020;
+}
+.name a {
+    text-decoration: none;
+}
+.name span {
+    margin-right: 25px;
+    color: #f2f2f2;;
+}
+
+.occupation a {
+    text-decoration: none;
+}
+.occupation span {
+    margin-right: 25px;
+    color: #f2f2f2;;
+}
+
+.tel a {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+.tel span {
+    margin-right: 25px;
+    color: #f2f2f2;;
+}
+
+.mail a {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+.mail span {
+    margin-right: 25px;
+    color: #f2f2f2;;
+}
+
+.address a {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+.address span {
+    margin-right: 19px;
+    color: #f2f2f2;
+}
+
+@media screen and (max-width: 480px) {
+    .footer h4 {
+        margin: 10px 0 20px 0;
+    }
+    .list-group {
+        width: 100%;
+    }
+}
+
+/* .footerLast {
+    background-color: #4F6F52;
+    color: #333;
+    border-radius: 5px;
+    padding: 8px 10px;
+    font-weight: bold;
+} */

@@ -1,0 +1,129 @@
+
+.carousel-caption {
+    color: #f2f2f2;
+    background: rgb(75,195,34);
+    background: linear-gradient(0deg, rgba(75,195,34,0.7008053221288515) 0%, rgba(253,187,45,0.5551470588235294) 100%);
+    border-radius: 10px;
+}
+.carousel-caption h5 {
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+}
+.carousel-caption p {
+    font-size: 19px;
+    color: black;
+    font-weight: bold;
+}
+
+.ourServices {
+    width: 40%;
+    margin: auto;
+    border-radius: 5px;
+    background: rgb(170,197,39);
+    background: radial-gradient(circle, rgba(170,197,39,1) 0%, rgba(249,252,249,1) 100%);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* transform: rotate(10deg); */
+}
+.services {
+    text-align: center;
+    margin: 20px 0 0 0;
+    padding: 20px;
+    width: 40%;
+    margin: auto;
+}
+
+.card {
+    width: 30rem;
+}
+.card img {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.card:hover img {
+    -webkit-transform: scale(0.8);
+    transform: scale(1);
+}
+
+.card-body {
+    margin: 7px 0 7px 0;
+}
+.list-group-item {
+    margin: 5px 0 0 15px;
+    color: #163020;
+}
+.card-img-top {
+    width: 479px;
+    height: 379px;
+}
+.card-title {
+    color: #163020;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: larger;
+    padding: 12px 14px;
+    color: #f2f2f2;
+}
+.card-text {
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 21px;
+    text-align: center;
+}
+.card-link {
+    color: #163020;
+}
+
+@media screen and (max-width: 480px) {
+    .d-flex {
+        flex-direction: column;
+    }
+    .card {
+        width: 21rem;
+        margin: 25px auto;
+    }
+    .card-img-top {
+        width: 100%;
+        height: auto;
+    }
+    .card-body {
+        margin: 15px;
+    }
+    .list-group-item {
+        margin: 5px 0 5px 15px;
+    }
+    .card-text {
+        margin-top: 5px;
+    }
+    .carousel-caption {
+        color: #163020;
+        background-color: #f2f2f2;
+        border-radius: 10px;
+    }
+    .carousel-caption h5 {
+        font-size: 23px;
+        color: black;
+        font-weight: bold;
+        padding: 4px 6px;
+    }
+    .carousel-caption p {
+        font-size: 16px;
+        color: black;
+        /* font-weight: bold; */
+        padding: 4px 6px;
+    }
+    .ourServices {
+        margin-top: 10px;
+        width: 100%;
+    }
+    .services {
+        text-align: center;
+        margin: 20px 0 0 0;
+        padding: 20px;
+        width: 100%;
+        margin: auto;
+    }
+}

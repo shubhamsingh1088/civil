@@ -1,0 +1,9 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+.alt-grid [class*="col-"] {padding-left:0;padding-right:0}
+.alt-grid .row {margin-left:0;margin-right:0}
+
+/* container adjusted */
+.container-fluid {width:100%;max-width:none;padding:0;}
+
+body, html { overflow-x: hidden; }
