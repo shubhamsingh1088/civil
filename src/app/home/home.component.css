@@ -115,6 +115,11 @@
         /* font-weight: bold; */
         padding: 4px 6px;
     }
+    @media (max-width: 576px) {
+        .carousel-item img {
+            height: 300px; /* Adjust the height as needed */
+        }
+    }
     .ourServices {
         margin-top: 10px;
         width: 100%;
@@ -125,5 +130,19 @@
         padding: 20px;
         width: 100%;
         margin: auto;
+    }
+    .card img {
+        -webkit-transform: scale(1); /* Set the default scale for mobile devices */
+        transform: scale(1);
+    }
+    .card:hover img {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+    .card-text {
+        margin-top: 5px;
+        font-weight: 600;
+        font-size: 21px;
+        text-align: left;
     }
 }

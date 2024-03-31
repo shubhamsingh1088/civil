@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { CommonService } from './common.service';
 
 @Component({
   selector: 'app-root',
@@ -13,4 +14,5 @@ import { FooterComponent } from './footer/footer.component';
 })
 export class AppComponent {
   title = 'civil';
+  constructor(private commonService: CommonService) {}
 }
