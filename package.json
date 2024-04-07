@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --configuration=production --base-href https://shubhamsingh1088.github.io/civil/",
+    "build": "ng build --configuration=production --base-href https://greenearthsolutionsraipur.com/",
     "host": "npx angular-cli-ghpages --dir=docs",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
