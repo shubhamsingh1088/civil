@@ -30,10 +30,7 @@
               "zone.js"
             ],
             "tsConfig": "tsconfig.app.json",
-            "assets": [
-              { "glob": "favicon.ico", "input": "src/", "output": "/" },
-              { "glob": "**/*", "input": "src/assets/", "output": "/assets/" }
-            ],
+            
             "styles": [
               "src/styles.css"
             ],
@@ -96,8 +93,11 @@
             "tsConfig": "tsconfig.spec.json",
             "assets": [
               { "glob": "favicon.ico", "input": "src/", "output": "/" },
-              { "glob": "**/*", "input": "src/assets/", "output": "/assets/" }
-            ],
+              { "glob": "**/*", "input": "src/assets/", "output": "/assets/" },
+              { "glob": "polyfills.81438fab73ff6e36.js", "input": "src/assets/", "output": "/assets/" },
+              { "glob": "main.e311803560f0e98f.js", "input": "src/assets/", "output": "/assets/" },
+              { "glob": "runtime.ff1061eab3d5bbe6.js", "input": "src/assets/", "output": "/assets/" }
+            ],            
             "styles": [
               "src/styles.css"
             ],
