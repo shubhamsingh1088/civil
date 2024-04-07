@@ -4,7 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --configuration=production --base-href https://greenearthsolutionsraipur.com/",
+    "optimize-images": "node optimize-images.js",
+    "build": "npm run optimize-images && ng build --configuration=production --base-href https://greenearthsolutionsraipur.com/",
     "host": "npx angular-cli-ghpages --dir=docs",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
@@ -31,6 +32,8 @@
     "@angular/cli": "~16.0.6",
     "@angular/compiler-cli": "^16.0.0",
     "@types/jasmine": "~4.3.0",
+    "imagemin": "^8.0.1",
+    "imagemin-webpack-plugin": "^2.4.2",
     "jasmine-core": "~4.6.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
